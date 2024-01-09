@@ -18,7 +18,7 @@ call plug#end()
 
 let NERDTreeShowHidden=1
 
-nnoremap <C-z> :wq!<CR>
+nnoremap <C-z> :w!q<CR>
 nnoremap <C-s> :w!<CR>
 imap jj <Esc>
 
