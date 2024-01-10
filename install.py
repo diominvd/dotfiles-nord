@@ -24,4 +24,4 @@ def install_local() -> None:
 if __name__ == '__main__':
     install_config()
     install_local()
-    print('Install completed')
+    print('Install completed. Restart system for full apply config.')
