@@ -1,4 +1,4 @@
-# NORD Style theme
+# [i3wm + polybar] NORD Style theme
 ![Preview](https://github.com/diominvd/dotfiles/blob/main/preview/preview1.png)
 WM: [i3wm-gaps](https://github.com/Airblader/i3?ysclid=lr7qlqw9t5621693633)
 
