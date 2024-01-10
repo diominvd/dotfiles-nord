@@ -2,9 +2,9 @@
 
 playerctl status 2> /dev/null 1> /dev/null
 
-if [ $? == 0 ]
+if [ $? == 0 ] && [[ $(playerctl metadata --format '{{ playerName }}') != 'firefox' ]];
   then
-    if [[ $(playerctl status) != 'Stopped' ]];
+	  if [[ $(playerctl status) != 'Stopped' ]];
       then
       	title=$(playerctl metadata title)
       	artist=$(playerctl metadata artist)
