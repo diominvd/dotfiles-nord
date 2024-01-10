@@ -1,6 +1,6 @@
 # [i3wm + polybar] NORD Style theme
 ![Preview](https://github.com/diominvd/dotfiles/blob/main/preview/preview1.png)
-WM: [i3wm-gaps](https://github.com/Airblader/i3?ysclid=lr7qlqw9t5621693633)
+WM: [i3wm](https://github.com/i3/i3)
 
 Bar: [polybar](https://github.com/polybar/polybar?ysclid=lr7qpl3u4260871930) (forest theme)
 
