@@ -4,7 +4,7 @@ WM: [i3wm](https://github.com/i3/i3)
 
 Bar: [polybar](https://github.com/polybar/polybar?ysclid=lr7qpl3u4260871930) (forest theme)
 
-Terminal: [kitty](https://sw.kovidgoyal.net/kitty/) (oh-my-zsh + powerlevel10k theme)
+Terminal: [kitty](https://sw.kovidgoyal.net/kitty/) (starship + oh-my-zsh + powerlevel10k theme)
 
 Compositor (blur): [picom](https://github.com/micro-hawk/picom?ysclid=lr7qtcnvni16476012)
 
