@@ -3,12 +3,12 @@ import os
 current_dir = os.path.abspath(os.curdir)
 
 def install_config() -> None:
-    warning_ans = input('Install .local files can replace your files. Continue? (y/n)')
+    warning_ans = input('Install .config files can replace your files. Continue? (y/n)')
     if warning_ans == 'y':
         os.system(f'sudo cp -r {current_dir}/config/* ~/.config/')
-        print('.local files installed')
+        print('.config files installed')
     else:
-        print('.local files not installed')
+        print('.config files not installed')
     return None
 
 def install_local() -> None:

@@ -35,10 +35,10 @@ font pango:monospace 8
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id picom --conf .config/picom/picom.conf
-exec --no-startup-id .config/polybar/forest/launch.sh
-exec --no-startup-id nitrogen --restore
+exec_always --no-startup-id dex --autostart --environment i3
+exec_always --no-startup-id picom --conf .config/picom/picom.conf
+exec_always --no-startup-id .config/polybar/forest/launch.sh
+exec_always --no-startup-id nitrogen --restore
 
 # CHANGE KEYBOARD
 exec --no-startup-id setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle
