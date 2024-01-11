@@ -1,4 +1,4 @@
-# [i3wm + polybar] NORD Style theme
+# NORD Style theme
 ![Preview](https://github.com/diominvd/dotfiles/blob/main/preview/preview1.png)
 WM: [i3wm](https://github.com/i3/i3)
 
